@@ -37,7 +37,7 @@ header {
 
 
 .rigth i {
-    padding: 30px;
+    padding: 0 30px;
     color: #898989;
 
 }
@@ -127,6 +127,7 @@ hr {
 
 .price1 {
     display: flex;
+    align-items: center;
     
 }
 
