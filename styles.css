@@ -193,3 +193,72 @@ hr {
 .btn2 i {
     padding: 0 10px;
 }
+
+.brand{
+    display: flex;
+    align-items : center;
+    justify-content: center;
+    
+}
+
+.icon-menu{
+    display: none;
+}
+
+
+.brand h1{
+    margin-left: 0.5rem;
+}
+
+
+@media screen and (max-width: 512px) {
+    .navbar{
+        display: none;
+    }
+
+    .left{
+        padding-left: 1rem;
+    }
+
+    .rigth{
+        padding-right: 1rem;
+    }
+
+    .icon-menu{
+        display: inline;
+    }
+
+    .pictures .picture-item{
+        display: none;
+    }
+
+    .pictures .picture img{
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .container{
+        width: 100%;
+        margin-top: 0;
+        flex-direction: column;
+    }
+    .word{
+        padding: 1rem;
+    }
+
+    .btns{
+        flex-direction: column;
+
+    }
+
+    .btn1{
+        width: 100%;
+    }
+
+    .btn2{
+        width: 100%;
+        margin: 0.5rem 0.5rem ;
+    }
+}
+
+
